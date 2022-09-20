@@ -52,8 +52,8 @@
                     <td>$pel[Tanggal_Peminjaman]</td>
                     <td>$pel[Status_Barang]</td>
                     <td>
-                        <a href='formeditbarang.php?Kode_Barang=".$pel['Kode_Barang']."'>Edit</a>
-                        <a href='hapusbarang.php?Kode_Barang=".$pel['Kode_Barang']."'>Hapus</a>
+                        <a href='formeditbarang.php?Kode_Barang=".$pel['Kode_Barang']."' class =\"barangedit\">Edit</a>
+                        <a href='hapusbarang.php?Kode_Barang=".$pel['Kode_Barang']."' class =\"baranghapus\">Hapus</a>
                     </td>
                 </tr>";
 

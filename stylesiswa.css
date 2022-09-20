@@ -45,13 +45,14 @@ body{
 .siswadata{
     float: right;
     top: 3%;
-    left: 23%;
+    left: 27%;
     position: absolute;
 }
 
 table{
     border-collapse: collapse;
     margin-top: 10px;
+    text-align: center;
 }
 
 th{
@@ -80,15 +81,21 @@ th{
 }
 
 td a{
-    background-color: #183FA3;
     color: white;
-    padding: 5px;
-    margin-left: 11px;
+    padding: 6px;
 }
 
 td{
     height: 35px;
     background-color: white;
+}
+
+.siswaedit{
+    background-color: #0d5c21;
+}
+
+.siswahapus{
+    background-color: #5c0d0d;
 }
 
 button{

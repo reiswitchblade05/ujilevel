@@ -50,8 +50,8 @@
                     <td>$pel[Kelas]</td>
                     <td>$pel[NIS]</td>
                     <td>
-                        <a href='formedit.php?No_Siswa=".$pel['No_Siswa']."'>Edit</a>
-                        <a href='hapussiswa.php?No_Siswa=".$pel['No_Siswa']."'>Hapus</a>
+                        <a href='formedit.php?No_Siswa=".$pel['No_Siswa']."' class =\"siswaedit\">Edit</a>
+                        <a href='hapussiswa.php?No_Siswa=".$pel['No_Siswa']."' class =\"siswahapus\">Hapus</a>
                     </td>
                 </tr>";
 
