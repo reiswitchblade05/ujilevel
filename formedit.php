@@ -37,14 +37,27 @@
     <div class="edit">
         <form action="edit.php" method="post">
             <h3>Tambah Data Siswa</h3>
-            <p><label> <input value="<?php echo $pel['No_Siswa']?>" required="required" 
-            type="hidden" name="No_Siswa"></label></p>
-            <p><label>Nama Siswa : <input value="<?php echo $pel['Nama_Siswa']?>" required="required" 
-            type="text" name="Nama_Siswa"></label></p>
-            <p><label>Kelas : <input value="<?php echo $pel['Kelas']?>" required="required" type="text" 
-            name="Kelas"></label></p>
-            <p><label>NIS : <input value="<?php echo $pel['NIS']?>" required="required" type="number" 
-            name="NIS"></label></p>
+            <table class="tableeditsiswa">
+                <tr>
+                    <p><label> <input value="<?php echo $pel['No_Siswa']?>" required="required" 
+                    type="hidden" name="No_Siswa"></label></p>
+                </tr>
+                <tr>
+                    <td>Nama Siswa</td>
+                    <td><input value="<?php echo $pel['Nama_Siswa']?>" required="required" 
+                    type="text" name="Nama_Siswa"></td>
+                </tr>
+                <tr>
+                    <td>Kelas</td>
+                    <td<input value="<?php echo $pel['Kelas']?>" required="required" type="text" 
+                    name="Kelas"></td>
+                </tr>
+                <tr>
+                    <td>NIS</td>
+                    <td><input value="<?php echo $pel['NIS']?>" required="required" type="number" 
+                    name="NIS"></td>
+                </tr>
+            </table>
             <input type="submit" name="update" value="update">
         </form>
     </div>
