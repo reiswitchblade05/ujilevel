@@ -49,7 +49,7 @@ body{
     position: absolute;
 }
 
-.tablesiswa{
+table{
     border-collapse: collapse;
     margin-top: 10px;
 }
@@ -64,7 +64,7 @@ th{
 }
 
 .th2{
-    width: 250px;
+    width: 200px;
 }
 
 .th3{
@@ -92,7 +92,7 @@ button{
     font-size: 15px;
     font-weight: bold;
     border: none;
-    margin-top: 15px;
+    margin-top: 105px;
 }
 
 .savedata{
@@ -102,40 +102,50 @@ button{
     position: absolute;
 }
 
-.edit{
+.editsiswa{
     float: right;
     top: 3%;
     left: 23%;
     position: absolute;
 }
 
-.barangdata{
-    float: right;
-    top: 3%;
-    left: 23%;
+.tabeditsiswa{
+    margin-top: 155px;
+}
+
+.tabeditsiswa td{
+    background-color: #84A5FA;
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 350px;
+    height: 25px;
+}
+
+.submit{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    color: #183FA3;
+}
+
+.savesiswa{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    color: #183FA3;
     position: absolute;
+    margin-top: 400px;
 }
 
-.thb1{
-    width: 110px;
+.tabsavesiswa td{
+    background-color: #84A5FA;
+    width: 150px;
+    padding-bottom: 20px;
 }
 
-.thb2{
-    width: 130px;
-}
-
-.thb3{
-    width: 145px;
-}
-
-.thb4{
-    width: 160px;
-}
-
-.thb5{
-    width: 130px;
-}
-
-.thb6{
-    width: 130px;
+.tabsavesiswa{
+    margin-top: 140px;
 }

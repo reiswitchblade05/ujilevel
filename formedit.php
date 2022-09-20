@@ -17,7 +17,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesiswa.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
@@ -34,10 +34,10 @@
         </div>
     </div>
 
-    <div class="edit">
+    <div class="editsiswa">
         <form action="edit.php" method="post">
-            <h3>Tambah Data Siswa</h3>
-            <table class="tableeditsiswa">
+            <h3>EDIT DATA SISWA</h3>
+            <table class="tabeditsiswa">
                 <tr>
                     <p><label> <input value="<?php echo $pel['No_Siswa']?>" required="required" 
                     type="hidden" name="No_Siswa"></label></p>
@@ -49,7 +49,7 @@
                 </tr>
                 <tr>
                     <td>Kelas</td>
-                    <td<input value="<?php echo $pel['Kelas']?>" required="required" type="text" 
+                    <td><input value="<?php echo $pel['Kelas']?>" required="required" type="text" 
                     name="Kelas"></td>
                 </tr>
                 <tr>
@@ -58,7 +58,7 @@
                     name="NIS"></td>
                 </tr>
             </table>
-            <input type="submit" name="update" value="update">
+            <input class="submit" type="submit" name="update" value="Update">
         </form>
     </div>
 </body>
