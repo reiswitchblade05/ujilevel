@@ -79,8 +79,15 @@ th{
     width: 130px;
 }
 
+td a{
+    background-color: #183FA3;
+    color: white;
+    padding: 5px;
+    margin-left: 11px;
+}
+
 td{
-    height: 30px;
+    height: 35px;
     background-color: white;
 }
 
@@ -137,7 +144,7 @@ input{
     font-weight: bold;
     color: #183FA3;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 365px;
 }
 
 .tabsavesiswa td{

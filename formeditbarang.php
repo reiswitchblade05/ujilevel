@@ -63,7 +63,7 @@
                     name="Status_Barang"></td>
                 </tr>
             </table>
-            <input type="submit" name="update" value="update">
+            <input class="submit" type="submit" name="update" value="Update">
         </form>
     </div>
 </body>
