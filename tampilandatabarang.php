@@ -19,7 +19,7 @@
     <!-- sidebar -->
     <div class="sidebar">
         <div class="header-sidebar">
-            <h3 class="title">SARPRAS</h3>
+            <h3 class="headertitle"> <a href="menu.html" style="color:#FFFFFF">SARPRAS</a></h3>
         </div>
         <div class="sidebar-content">
             <p class="p1"><a href="tampilandatasiswa.php" style="color:#FFFFFF">Data Siswa</a></p>
