@@ -45,22 +45,22 @@
                 <tr>
                     <td>Nama Barang</td>
                     <td><input value="<?php echo $pel['Nama_Barang']?>" required="required" 
-                    type="text" name="Nama_Barang"></td>
+                    type="text" name="Nama_Barang" placeholder="Update Barang"></td>
                 </tr>
                 <tr>
                     <td>Nama Peminjam</td>
                     <td><input value="<?php echo $pel['Nama_Peminjam']?>" required="required" type="text" 
-                    name="Nama_Peminjam"></td>
+                    name="Nama_Peminjam" placeholder="Update Peminjam"></td>
                 </tr>
                 <tr>
                     <td>Tanggal Peminjaman</td>
                     <td><input value="<?php echo $pel['Tanggal_Peminjaman']?>" required="required" type="text" 
-                    name="Tanggal_Peminjaman"></td>
+                    name="Tanggal_Peminjaman" placeholder="Update Tanggal"></td>
                 </tr>
                 <tr>
                     <td>Status Barang</td>
                     <td><input value="<?php echo $pel['Status_Barang']?>" required="required" type="text" 
-                    name="Status_Barang"></td>
+                    name="Status_Barang" placeholder="Update Status"></td>
                 </tr>
             </table>
             <input class="submit" type="submit" name="update" value="Update">

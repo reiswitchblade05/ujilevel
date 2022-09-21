@@ -45,17 +45,17 @@
                 <tr>
                     <td>Nama Siswa</td>
                     <td><input value="<?php echo $pel['Nama_Siswa']?>" required="required" 
-                    type="text" name="Nama_Siswa"></td>
+                    type="text" name="Nama_Siswa" placeholder="Update Nama"></td>
                 </tr>
                 <tr>
                     <td>Kelas</td>
                     <td><input value="<?php echo $pel['Kelas']?>" required="required" type="text" 
-                    name="Kelas"></td>
+                    name="Kelas" placeholder="Update Kelas"></td>
                 </tr>
                 <tr>
                     <td>NIS</td>
                     <td><input value="<?php echo $pel['NIS']?>" required="required" type="number" 
-                    name="NIS"></td>
+                    name="NIS" placeholder="Update NIS"></td>
                 </tr>
             </table>
             <input class="submit" type="submit" name="update" value="Update">
