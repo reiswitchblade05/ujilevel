@@ -1,22 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
 }
 
 body{
-    background-color: #84A5FA;
+    background: linear-gradient(#84A5FA, #e6edff, white);
 }
 
 .sidebar{
-    background-color: #0F2458;
+    background: linear-gradient(#0B142E, #183FA3);
     height: 100vh;
     width: 275px;
 }
 
 .header-sidebar{
-    background-color: #0B142E;
+    background-color: #050b1a;
     height: 50px;
     color: white;
     padding-left: 55px;
@@ -34,19 +34,36 @@ body{
 }
 
 .p1{
-    margin-bottom: 18px;
+    margin-bottom: 27px;
+}
+
+.p2{
+    background-color: #183FA3;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .sidebar-content :hover{
     background-color: #183FA3;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .barangdata{
     float: right;
-    top: 3%;
-    left: 26%;
+    top: 20%;
+    left: 25%;
     position: absolute;
+    background-color: #0F2458;
+    padding: 25px;
+    border-radius: 25px;
+    padding-bottom: 35px;
+    box-shadow: 0 0 10px black;
+}
+
+.barangdata h2{
+    color: white;
 }
 
 .datab{
@@ -73,10 +90,12 @@ td a{
 
 .barangedit{
     background-color: #0d5c21;
+    border-radius: 7px;
 }
 
 .baranghapus{
     background-color: #5c0d0d;
+    border-radius: 7px;
 }
 
 button{
@@ -87,7 +106,8 @@ button{
     font-size: 15px;
     font-weight: bold;
     border: none;
-    margin-top: 105px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
 
 .thb1{
@@ -130,6 +150,7 @@ button{
     padding: 25px;
     border-radius: 25px;
     padding-bottom: 35px;
+    box-shadow: 0 0 10px black;
 }
 
 .tabeditbarang td{
@@ -152,6 +173,9 @@ input{
     height: 30px;
     font-weight: bold;
     color: #183FA3;
+    background-color: white;
+    border-radius: 7px;
+    border: none;
 }
 
 .savebarang{
@@ -161,6 +185,9 @@ input{
     color: #183FA3;
     position: absolute;
     margin-top: 20px;
+    background-color: white;
+    border-radius: 7px;
+    border: none;
 }
 
 .savedata{
@@ -173,6 +200,7 @@ input{
     border-radius: 25px;
     padding-bottom: 85px;
     color: white;
+    box-shadow: 0 0 10px black;
 }
 
 .tabsavebarang td{

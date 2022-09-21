@@ -1,22 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     text-decoration: none;
 }
 
 body{
-    background-color: #84A5FA;
+    background: linear-gradient(#84A5FA, #e6edff, white);
 }
 
 .sidebar{
-    background-color: #0F2458;
+    background: linear-gradient(#0B142E, #183FA3);
     height: 100vh;
     width: 275px;
 }
 
 .header-sidebar{
-    background-color: #0B142E;
+    background-color: #050b1a;
     height: 50px;
     color: white;
     padding-left: 55px;
@@ -34,19 +34,33 @@ body{
 }
 
 .p1{
-    margin-bottom: 18px;
+    margin-bottom: 27px;
+    background-color: #183FA3;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .sidebar-content :hover{
     background-color: #183FA3;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .siswadata{
     float: right;
-    top: 3%;
+    top: 20%;
     left: 30%;
     position: absolute;
+    background-color: #0F2458;
+    padding: 25px;
+    border-radius: 25px;
+    padding-bottom: 35px;
+    box-shadow: 0 0 10px black;
+}
+
+.siswadata h2{
+    color: white;
 }
 
 .datas{
@@ -98,10 +112,12 @@ td{
 
 .siswaedit{
     background-color: #0d5c21;
+    border-radius: 7px;
 }
 
 .siswahapus{
     background-color: #5c0d0d;
+    border-radius: 7px;
 }
 
 button{
@@ -112,7 +128,8 @@ button{
     font-size: 15px;
     font-weight: bold;
     border: none;
-    margin-top: 105px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
 
 .savedata{
@@ -125,6 +142,7 @@ button{
     padding: 25px;
     padding-bottom: 70px;
     border-radius: 25px;
+    box-shadow: 0 0 10px black;
 }
 
 .editsiswa{
@@ -137,6 +155,7 @@ button{
     padding: 25px;
     border-radius: 25px;
     padding-bottom: 30px;
+    box-shadow: 0 0 10px black;
 }
 
 .tabeditsiswa{
@@ -159,6 +178,9 @@ input{
     height: 30px;
     font-weight: bold;
     color: #183FA3;
+    background-color: white;
+    border-radius: 7px;
+    border: none;
 }
 
 .savesiswa{
@@ -168,6 +190,9 @@ input{
     color: #183FA3;
     position: absolute;
     margin-top: 265px;
+    background-color: white;
+    border-radius: 7px;
+    border: none;
 }
 
 .tabsavesiswa td{

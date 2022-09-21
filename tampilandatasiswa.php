@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="stylesiswa.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>SARPRAS</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
         </div>
         <div class="sidebar-content">
             <p class="p1"><a href="tampilandatasiswa.php" style="color:#FFFFFF">Data Siswa</a></p>
-            <p><a href="tampilandatabarang.php" style="color:#FFFFFF">Data Barang</a></p>
+            <p class="p2"><a href="tampilandatabarang.php" style="color:#FFFFFF">Data Barang</a></p>
         </div>
     </div>
 
