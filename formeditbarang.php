@@ -36,7 +36,7 @@
 
     <div class="editbarang">
         <form action="editbarang.php" method="post">
-            <h3>EDIT DATA BARANG</h3>
+            <h2>EDIT DATA BARANG</h2>
             <table class="tabeditbarang">
                 <tr>
                     <p><label><input value="<?php echo $pel['Kode_Barang']?>" required="required" 

@@ -31,7 +31,7 @@
     <div class="siswadata">
         <h2>DATA SISWA</h2>
         <button class="create"><a href="datasiswa.html" style="color:#0F2458">Create</a></button>
-        <table border='1px solid'>
+        <table class="datas">
             <tr>
                 <th class="th1">No. Siswa</th>
                 <th class="th2">Nama Siswa</th>

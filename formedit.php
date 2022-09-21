@@ -36,7 +36,7 @@
 
     <div class="editsiswa">
         <form action="edit.php" method="post">
-            <h3>EDIT DATA SISWA</h3>
+            <h2>EDIT DATA SISWA</h2>
             <table class="tabeditsiswa">
                 <tr>
                     <p><label> <input value="<?php echo $pel['No_Siswa']?>" required="required" 

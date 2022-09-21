@@ -31,7 +31,7 @@
     <div class="barangdata">
         <h2>DATA BARANG</h2>
         <button class="create"><a href="databarang.html" style="color:#0F2458">Create</a></button>
-        <table border='1px solid'>
+        <table class="datab">
             <tr>
                 <th class="thb1">Kode Barang</th>
                 <th class="thb2">Nama Barang</th>

@@ -45,39 +45,45 @@ body{
 .siswadata{
     float: right;
     top: 3%;
-    left: 27%;
+    left: 30%;
     position: absolute;
 }
 
-table{
-    border-collapse: collapse;
-    margin-top: 10px;
+.datas{
+    margin-top: 20px;
     text-align: center;
+    border-spacing: 0;
+    box-shadow: 0 0 7px;
 }
 
 th{
-    background-color: #D9D9D9;
+    background-color: #183FA3;
     height: 31px;
 }
 
 .th1{
     width: 100px;
+    color: white;
 }
 
 .th2{
-    width: 200px;
+    width: 250px;
+    color: white;
 }
 
 .th3{
-    width: 100px;
+    width: 120px;
+    color: white;
 }
 
 .th4{
-    width: 130px;
+    width: 150px;
+    color: white;
 }
 
 .th5{
-    width: 130px;
+    width: 150px;
+    color: white;
 }
 
 td a{
@@ -111,30 +117,40 @@ button{
 
 .savedata{
     float: right;
-    top: 3%;
-    left: 23%;
+    top: 18%;
+    left: 32%;
     position: absolute;
+    background-color: #0F2458;
+    color: white;
+    padding: 25px;
+    padding-bottom: 70px;
+    border-radius: 25px;
 }
 
 .editsiswa{
     float: right;
-    top: 3%;
-    left: 23%;
+    top: 22%;
+    left: 32%;
     position: absolute;
+    background-color: #0F2458;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    padding-bottom: 30px;
 }
 
 .tabeditsiswa{
-    margin-top: 155px;
+    margin-top: 25px;
 }
 
 .tabeditsiswa td{
-    background-color: #84A5FA;
+    background-color: #0F2458;
     width: 150px;
     padding-bottom: 20px;
 }
 
 input{
-    width: 350px;
+    width: 550px;
     height: 25px;
 }
 
@@ -151,15 +167,16 @@ input{
     font-weight: bold;
     color: #183FA3;
     position: absolute;
-    margin-top: 365px;
+    margin-top: 265px;
 }
 
 .tabsavesiswa td{
-    background-color: #84A5FA;
+    background-color: #0F2458;
     width: 150px;
     padding-bottom: 20px;
+    color: white;
 }
 
 .tabsavesiswa{
-    margin-top: 140px;
+    margin-top: 30px;
 }
